@@ -1,0 +1,64 @@
+
+  @import url('https://fonts.googleapis.com/css2?family=Mooli&family=Roboto&display=swap');
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Mooli', sans-serif;
+}
+
+.container {
+    background-color: #edf6f9;
+    width: 50%;
+    margin-left: 25%;
+    margin-top: 10%;
+    height: 500px;
+    border-radius: 5px;
+}
+
+h1 {
+    text-align: center;
+    padding-top: 20px;
+    color: #3a86ff;
+    text-transform: capitalize;
+    font-size: 30px;
+}
+
+.first-img {
+    width: 200px;
+    height: 400px;
+    
+}
+
+.first-ul {
+    display: flex;
+    list-style: none;
+    margin-left: 4%;
+    align-items: center;
+}
+.first-li {
+    margin-left: 80px;
+    color: #3a86ff;
+}
+
+ .second-li {
+    display: inline;
+    margin-right: 10px;
+   
+    
+}
+.second-ul {
+    margin-left: 29px;
+    margin-top: -25px;
+}
+
+button {
+    padding: 10px 10px;
+    background-color: #3a86ff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
